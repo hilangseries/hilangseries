@@ -1,13 +1,12 @@
 body {
-  font-family: "Poppins",
- sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
 
 .layout_padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .layout_padding2 {
@@ -107,7 +106,11 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #7d9879;
+  color: #493c27;
+  color: #493c27;
+  color: #493c27;
+  color: #493c27;
+  color: #493c27;
 }
 
 a,
@@ -333,7 +336,7 @@ a:focus {
 .slider_section .detail-box {
   margin: 45px 5% 0 5%;
   padding-bottom: 45px;
-  border-right: 2px solid #7d9879;
+  border-right: 2px solid #493c27;
 }
 
 .slider_section .detail-box h1 {
@@ -345,7 +348,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #7d9879;
+  color: #493c27;
 }
 
 .slider_section .detail-box .btn-box {
@@ -366,33 +369,33 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 0px;
-  background-color: #0a2050;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #0a2050;
+  border: 1px solid #000000;
   border-radius: 0;
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
-  background-color: transparent;
-  color: #0a2050;
+  background-color: #ec3f15;
+  color: #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0px;
-  background-color: #7d9879;
+  background-color: #493c27;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #7d9879;
+  border: 1px solid #493c27;
   border-radius: 0;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
-  background-color: transparent;
-  color: #7d9879;
+  background-color: #ffc045;
+  color: #000000;
 }
 
 .slider_section .img-box img {
@@ -414,7 +417,7 @@ a:focus {
   height: 12px;
   opacity: 1;
   background: none;
-  border: 2px solid #7d9879;
+  border: 2px solid #493c27;
   color: #000000;
   position: relative;
   margin: 0 4px;
@@ -433,16 +436,27 @@ a:focus {
   top: 3.5px;
   width: 1.5px;
   height: 17px;
-  background-color: #7d9879;
+  background-color: #493c27;
   border-radius: 5px;
   -webkit-transform: rotate(25deg);
           transform: rotate(25deg);
 }
 
+.about_section {
+  background-image: url(../images/client-bg2.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+
 .about_section .detail-box {
   text-align: center;
-  width: 80%;
+  width: 100%;
+  height: auto;
   margin: auto;
+  background-size: cover; /* Mengatur ukuran background agar menutupi seluruh area */
+  background-position: center; /* Menyelaraskan background di tengah */
+  background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+  padding: 15px;
 }
 
 .about_section .detail-box .heading_container {
@@ -453,11 +467,11 @@ a:focus {
 }
 
 .about_section .detail-box .heading_container h2 {
-  color: #151515;
+  color: #ffffff;
 }
 
 .about_section .detail-box p {
-  color: #0e0e0e;
+  color: #ffffff;
   margin-top: 15px;
 }
 
@@ -468,7 +482,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .about_section .detail-box .btn-box a {
@@ -478,16 +492,16 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #7d9879;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .about_section .detail-box .btn-box a img {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .animal_section {
-  background-image: url(../images/animal-bg.jpg);
+  background-image: url(../images/client-bg1.jpg);
   background-size: cover;
   color: #ffffff;
 }
@@ -536,6 +550,7 @@ a:focus {
 }
 
 .animal_section .animal_container .box .detail-box h5 {
+	  text-align: center;
   font-weight: bold;
 }
 
@@ -548,7 +563,6 @@ a:focus {
   -webkit-animation: even-box-animate 3s infinite;
           animation: even-box-animate 3s infinite;
 }
-
 @-webkit-keyframes odd-box-animate {
   0% {
     -webkit-transform: translateY(45px);
@@ -657,7 +671,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #7d9879;
+  color: #493c27;
   text-transform: uppercase;
 }
 
@@ -732,8 +746,8 @@ a:focus {
   left: 50%;
   width: 80%;
   height: 1.5px;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #7d9879));
-  background-image: linear-gradient(to right, transparent 50%, #7d9879 50%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #493c27));
+  background-image: linear-gradient(to right, transparent 50%, #493c27 50%);
   background-size: 20px 100%;
   z-index: -1;
   -webkit-transform: translateX(-50%);
@@ -777,7 +791,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #7d9879;
+  color: #493c27;
   text-transform: uppercase;
 }
 
@@ -786,8 +800,8 @@ a:focus {
 }
 
 .food_section {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #0a2050), color-stop(60%, transparent));
-  background: linear-gradient(to bottom, #0a2050 60%, transparent 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #ffc045), color-stop(60%, transparent));
+  background: linear-gradient(to bottom, #ffc045 60%, transparent 60%);
 }
 
 .food_section .heading_container {
@@ -795,7 +809,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #463229;
 }
 
 .food_section .food_container {
@@ -822,7 +836,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 45px 20px 0 20px;
+  margin: 15px 40px 100px 100px;
 }
 
 .food_section .food_container .box .img-box img {
@@ -834,34 +848,34 @@ a:focus {
 }
 
 .food_section .food_container .box .detail-box h6 {
-  color: #7d9879;
+  color: #493c27;
   text-transform: uppercase;
 }
 
 .food_section .food_container .box .detail-box h3 {
   font-weight: bold;
-  color: #7d9879;
+  color: #493c27;
 }
 
 .food_section .food_container .box .detail-box h3 span {
-  color: #0a2050;
+  color: #ffc045;
 }
 
 .food_section .food_container .box .detail-box a {
   display: inline-block;
   padding: 8px 45px;
-  background-color: #0a2050;
-  color: #7d9879;
+  background-color: #ffc045;
+  color: #493c27;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #0a2050;
+  border: 1px solid #ffc045;
   border-radius: 0;
   margin-top: 15px;
 }
 
 .food_section .food_container .box .detail-box a:hover {
   background-color: transparent;
-  color: #0a2050;
+  color: #ffc045;
 }
 
 .client_section {
@@ -917,7 +931,7 @@ a:focus {
   position: unset;
   width: 45px;
   height: 45px;
-  background-color: #7d9879;
+  background-color: #493c27;
   opacity: 1;
   border-radius: 100%;
   background-repeat: no-repeat;
@@ -984,11 +998,11 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #7d9879;
+  background-color: #493c27;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #7d9879;
+  border: 1px solid #493c27;
   border-radius: 0;
   color: #fff;
   margin-top: 35px;
@@ -996,7 +1010,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #7d9879;
+  color: #493c27;
 }
 
 .contact_section .map_container {
@@ -1011,11 +1025,10 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0a2050;
+  background-color: #ffc045;
   color: #ffffff;
   padding: 40px 0 75px 0;
-  font-family: "Open Sans",
- sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .info_section .row > div {
@@ -1050,17 +1063,17 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 4px 45px;
-  background-color: #7d9879;
-  color: #0a2050;
+  background-color: #493c27;
+  color: #ffc045;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #7d9879;
+  border: 1px solid #493c27;
   border-radius: 0;
 }
 
 .info_form button:hover {
   background-color: transparent;
-  color: #7d9879;
+  color: #493c27;
 }
 
 .info_social .social_container {
@@ -1108,7 +1121,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #7d9879;
+  background-color: #493c27;
 }
 
 .footer_section p {
