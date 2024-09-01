@@ -6,8 +6,8 @@
 
 @media (max-width: 990px) {
   .hero_area {
-    height: auto;
-    weight: auto;
+    height: 100px;
+    weight: 100px;
   }
 
   .slider_section {
