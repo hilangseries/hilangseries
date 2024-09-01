@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -628,7 +629,7 @@ a:focus {
 
 .food_section {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #ffc045), color-stop(60%, transparent));
-  background: linear-gradient(to bottom, #ffc045 68%, transparent 60%);
+  background: linear-gradient(to bottom, #ffc045 100%, transparent 60%);
     padding: 50px 80px 80px 8px;
 }
 
@@ -686,17 +687,17 @@ a:focus {
 }
 
 .food_section .food_container .box .detail-box h3 span {
-  color: #ffc045;
+  color: #ffffff;
 }
 
 .food_section .food_container .box .detail-box a {
   display: inline-block;
   padding: 8px 45px;
-  background-color: #ffc045;
-  color: #493c27;
+  background-color: #493c27;
+  color: #ffc045;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #ffc045;
+  border: 1px solid #493c27;
   border-radius: 0;
   margin-top: 15px;
 }
@@ -856,7 +857,8 @@ a:focus {
   background-color: #ffc045;
   color: #000000;
   padding: 40px 0 75px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .info_section .row > div {
