@@ -551,7 +551,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 120px 2.5%;
+  margin: 60px 2.5%;
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
 }
