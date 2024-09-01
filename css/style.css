@@ -628,9 +628,11 @@ a:focus {
 }
 
 .food_section {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffc045), color-stop(100%, transparent));
-  background: linear-gradient(to bottom, #ffc045 100%, transparent 60%);
-    padding: auto;
+  background-color: #ffc045;
+  color: #000000;
+  padding: 40px 0 75px 0;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .food_section .heading_container {
