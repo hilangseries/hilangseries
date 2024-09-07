@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: auto) {
   .hero_area {
     height: auto;
   }
